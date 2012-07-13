@@ -1,0 +1,8 @@
+DecKDX decrypts KDX packets. 
+
+Instructions:
+
+Sniff out a packet with WireShark then paste it into the input box, and 
+recieve output!
+
+Yeah, that's it!
