@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="DecKDXDialog">
+		<title>DecKDX v.7132012</title>
+		<centered>1</centered>
+		<size>492,360</size>
+		<id_arg>0</id_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>DecKDX v.7132012</label>
+			<pos>144,16</pos>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>Encrypted Packet (Hex):</label>
+			<pos>24,64</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Decrypted Packet (ASCII):</label>
+			<pos>24,176</pos>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="encBox" member="yes">
+			<pos>24,88</pos>
+			<size>440,72</size>
+			<style>wxTE_MULTILINE</style>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="decBox" member="yes">
+			<pos>24,200</pos>
+			<size>440,72</size>
+			<style>wxTE_MULTILINE</style>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="decBTN" member="yes">
+			<label>Decrypt!</label>
+			<pos>208,304</pos>
+			<handler function="OndecBTNClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX1" variable="dumpChk" member="yes">
+			<label>Also export to &apos;dump.txt&apos; in same dir as program?</label>
+			<pos>24,280</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>Algorithm (C) Luigi Auriemma 2007. Program (C) David Stancu 2012.</label>
+			<pos>88,336</pos>
+		</object>
+	</object>
+</wxsmith>
